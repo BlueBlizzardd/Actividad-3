@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="/assets/js/scripts.js" defer></script>
+</head>
+
+<body>
+    <h1>Calculo de notas</h1>
+    <form>
+        <label for="id">Cedula del alumno</label>
+        <input type="number" name="id" id="id">
+
+        <label for="name">Nombre del alumno</label>
+        <input type="text" name="name" id="name">
+
+        <label for="math">Nota de Matematicas</label>
+        <input type="number" name="math" id="math">
+
+        <label for="physics">Nota de Fisica</label>
+        <input type="number" name="physics" id="physics">
+
+        <label for="prog">Nota de Programacion</label>
+        <input type="number" name="prog" id="prog">
+
+        <button type="button" class="btn">Subir Notas</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Nota de Mat.</th>
+                <th>Nota de Fisica</th>
+                <th>Nota de Prog.</th>
+            </tr>
+        </thead>
+        <tbody class="body">
+
+        </tbody>
+    </table>
+
+    <div class="results"></div>
+</body>
+
+</html>
